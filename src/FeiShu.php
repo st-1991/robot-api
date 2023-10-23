@@ -53,7 +53,6 @@ class FeiShu
     }
 
     private function _request(string $post_string) {
-        echo $post_string;
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $this->remote_server);
         curl_setopt($ch, CURLOPT_POST, 1);
