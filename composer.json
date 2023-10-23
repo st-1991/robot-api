@@ -1,0 +1,19 @@
+{
+    "name": "suntao/robot-api",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Suntao\\RobotApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "suntao",
+            "email": "suntao@weiche.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
