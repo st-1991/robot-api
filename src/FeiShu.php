@@ -45,7 +45,6 @@ class FeiShu
             ],
         ];
         $res = $this->_request(json_encode($body));
-        var_dump($res);
         if ($res['code'] != 0) {
             return false;
         }
